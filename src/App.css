@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mvlist{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.theb{
+    width: 100%;
+    border: 2px solid black;
+    margin-left: 5%;
+    margin-right: 4.5%;
+}
+.theb:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.suits:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
+.narcos:hover{
+    transform: scale(1.06);
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.narcos{
+    border: 2px solid black;
+    margin-left: 6%;
+}
+.suits{
+margin-left: 3%;
+    border: 2px solid black;;
+}
+.title{
+    background-color: black;
+    color: white;
+    font-family: thin;
+}
+.desct{
+    background-color: wheat;
+    height: 100%;
+}
+
+.filmc{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.descdiv{
+  background-color: rgb(143, 157, 184);
+   width: 580px;
+   height: 350px;
+   overflow-x: scroll;
+   
+}
+.cont{
+    background-color: rgb(90, 83, 96);
 }
